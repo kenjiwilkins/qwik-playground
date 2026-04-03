@@ -19,11 +19,11 @@ export default component$(() => {
           <p class="text-on-surface-variant text-[10px] uppercase tracking-widest font-semibold">M83 • Summer Nights</p>
         </div>
               <div class="flex items-center gap-4 px-3">
-        <button class="scale-95 active:scale-90 transition-transform">
+        <button class="scale-95 active:scale-90 transition-transform text-2xl">
           <span class="sr-only">devices</span>
           <LuTabletSmartphone />
         </button>
-        <button class="bg-primary text-on-primary w-10 h-10 rounded-full flex items-center justify-center scale-95 active:scale-90 transition-transform">
+        <button class="bg-primary text-on-primary w-10 h-10 rounded-full flex items-center justify-center scale-95 active:scale-90 transition-transform text-2xl">
           <span class="sr-only" style="font-variation-settings: 'FILL' 1;">pause</span>
           {isPlayerPlaying ? <LuPlay /> : <LuPause />}
         </button>

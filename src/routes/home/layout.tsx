@@ -5,7 +5,6 @@ export default component$(() => {
   useStyles$(styles);
   return (
     <>
-      HOME
       <Slot />
     </>
   )
