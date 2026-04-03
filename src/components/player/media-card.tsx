@@ -1,6 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 
-interface MediaCardProps {
+export interface MediaCardProps {
   imageUrl: string;
   title: string;
   description: string;
